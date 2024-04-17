@@ -12,14 +12,14 @@ from src.utils.utils import load_object,evaluate_model
 from sklearn.linear_model import LinearRegression,Ridge,Lasso
 
 @dataclass
-class ModelTrainerConfiguration:
+class ModelEvaluationConfiguration:
     pass
 
-class ModelTrainer:
+class ModelEvaluation:
     def __init__(self):
         pass
 
-    def initiate_model_training(self):
+    def initiate_model_evaluation(self):
         try:
             pass
         except Exception as e:

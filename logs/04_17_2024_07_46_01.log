@@ -1,0 +1,5 @@
+[2024-04-17 07:46:03,115] 24 root - INFO - data ingestion started.
+[2024-04-17 07:46:04,213] 27 root - INFO - reading a dataframe.
+[2024-04-17 07:46:05,428] 31 root - INFO - Saving raw data to to artifact folder
+[2024-04-17 07:46:05,428] 33 root - INFO - Perform the train test split
+[2024-04-17 07:46:05,428] 49 root - INFO - Exception Occurred
