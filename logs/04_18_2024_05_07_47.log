@@ -1,0 +1,27 @@
+[2024-04-18 05:07:50,633] 24 root - INFO - data ingestion started.
+[2024-04-18 05:07:51,776] 27 root - INFO - reading a dataframe.
+[2024-04-18 05:07:52,897] 31 root - INFO - Saving raw data to to artifact folder
+[2024-04-18 05:07:52,897] 33 root - INFO - Perform the train test split
+[2024-04-18 05:07:54,124] 39 root - INFO - data ingestion part completed
+[2024-04-18 05:07:54,130] 75 root - INFO - Data Transformation Initiated
+[2024-04-18 05:07:54,395] 79 root - INFO - read train and test data complete
+[2024-04-18 05:07:54,405] 80 root - INFO - Train Dataframe Head : 
+       id  carat      cut color clarity  depth  table     x     y     z  price
+0  166368   1.00     Good     F     SI2   64.0   61.0  6.24  6.29  4.01   3679
+1   80553   0.37  Premium     F     SI1   61.7   59.0  4.61  4.66  2.86    616
+2  166778   2.24  Premium     H     SI2   61.2   60.0  8.37  8.43  5.15  16337
+3  175080   0.56    Ideal     D     SI1   62.0   56.0  5.29  5.26  3.27   1776
+4  175948   1.07    Ideal     G     VS2   62.1   56.0  6.55  6.57  4.08   6837
+[2024-04-18 05:07:54,410] 81 root - INFO - Test Dataframe Head : 
+       id  carat        cut color clarity  depth  table     x     y     z  price
+0   46282   1.52  Very Good     G     SI1   62.6   59.0  7.37  7.33  4.59  10164
+1  178035   0.50  Very Good     D     SI2   58.9   59.0  5.15  5.18  3.05   1238
+2  191343   1.03       Fair     F     SI1   64.5   59.0  6.36  6.27  4.07   4729
+3  185219   0.71  Very Good     D     SI2   59.4   63.0  5.83  5.78  3.46   2782
+4  168471   0.50    Premium     H    VVS1   62.4   58.0  5.11  5.10  3.18   1838
+[2024-04-18 05:07:54,410] 29 root - INFO - Data Transformation initiated
+[2024-04-18 05:07:54,410] 40 root - INFO - Pipeline Initiated
+[2024-04-18 05:07:54,899] 98 root - INFO - Applying preprocessing object on training and testing datasets.
+[2024-04-18 05:07:54,914] 107 root - INFO - preprocessing pickle file saved
+[2024-04-18 05:07:54,921] 24 root - INFO - Splitting Dependent and Independent variables from train and test data
+[2024-04-18 05:07:54,921] 64 root - INFO - Exception occured at Model Training

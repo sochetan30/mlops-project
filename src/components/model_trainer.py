@@ -9,17 +9,17 @@ from pathlib import Path
 
 
 from src.utils.utils import save_object,evaluate_model
-from sklearn.linear_model import LinearRegression,Ridge,Lasso
+from sklearn.linear_model import LinearRegression,Ridge,Lasso,ElasticNet
 
 @dataclass
-class ModelTrainerConfiguration:
-    pass
+class ModelTrainerConfig:
+    trained_model_file_path = os.path.join('artifacts','model.pkl')
 
 class ModelTrainer:
     def __init__(self):
-        pass
+        self.model_trainer_config = ModelTrainerConfig()
 
-    def initiate_model_training(self):
+    def initate_model_training(self,train_array,test_array):
         try:
             logging.info('Splitting Dependent and Independent variables from train and test data')
             X_train, y_train, X_test, y_test = (
@@ -34,7 +34,7 @@ class ModelTrainer:
             'Lasso':Lasso(),
             'Ridge':Ridge(),
             'Elasticnet':ElasticNet()
-        }
+            }
             
             model_report:dict=evaluate_model(X_train,y_train,X_test,y_test,models)
             print(model_report)
