@@ -1,0 +1,9 @@
+[2024-04-24 21:00:56,965] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.10:8080
+[2024-04-24 21:00:56,965] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-04-24 21:01:40,654] 96 werkzeug - INFO - 127.0.0.1 - - [24/Apr/2024 21:01:40] "GET / HTTP/1.1" 200 -
+[2024-04-24 21:01:41,142] 96 werkzeug - INFO - 127.0.0.1 - - [24/Apr/2024 21:01:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-04-24 21:21:47,051] 96 werkzeug - INFO - 127.0.0.1 - - [24/Apr/2024 21:21:47] "GET / HTTP/1.1" 200 -
+[2024-04-24 21:21:51,760] 96 werkzeug - INFO - 127.0.0.1 - - [24/Apr/2024 21:21:51] "[33mGET /predict HTTP/1.1[0m" 404 -
